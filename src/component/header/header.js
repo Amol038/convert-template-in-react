@@ -136,7 +136,7 @@ const Header  = () => {
                     <div className="single_feature">
                         <div className="single_feature_part">
                             <span className="single_feature_icon">
-                                <img src="assets/img/icon/feature_1.svg" alt=""/></span>
+                                <img src="assets/img/icon/feature_1.svg" alt="" /></span>
                             <h4>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
@@ -154,15 +154,15 @@ const Header  = () => {
                 </div>
                 <div className="col-lg-4 col-sm-12">
                         <div className="single_feature_img">
-                            <img src="assets/img/service.png" alt=""/>
+                            <img src="assets/img/service.png" alt=""/> 
                         </div>
                 </div>
                 <div className="col-lg-3 col-sm-12">
                     <div className="single_feature">
                         <div clasNames="single_feature_part">
                             <span className="single_feature_icon">
-                                <img src="img/icon/feature_1.svg" alt=""/></span>
-                            <h4>Better Future</h4>
+                                <img src="assets/img/icon/feature_1.svg" alt=""  style={{width: "25px"}}/></span>
+                            <h4 style={{margin_bottom:"15px",top:"17px",left:"82px",font_weight: "600",font_size: "20px"}}>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
                         </div>

@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './header'
+import MainPage from './main page'
 import { Outlet } from 'react-router-dom'
 const Home = () => {
   return (
-    <>
-    <Header/> 
+    <div>
+    <MainPage/> 
    
     <Outlet/>
-    </>
+    </div>
   )
 }
 

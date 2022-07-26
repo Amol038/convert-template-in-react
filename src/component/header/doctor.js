@@ -1,10 +1,29 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 
 const Doctor = () => {
+    const [sticky, setSticky] = useState("");
+
+    // on render, set listener
+    useEffect(() => {
+      console.log("hii");
+      window.addEventListener("scroll", isSticky);
+      return () => {
+        window.removeEventListener("scroll", isSticky);
+      };
+    }, []);
+  
+    const isSticky = () => {
+      /* Method that will fix header after a specific scrollable */
+      const scrollTop = window.scrollY;
+      const stickyClass = scrollTop >= 100 ? " menu_fixed animated fadeInDown" : "";
+      setSticky(stickyClass);
+      console.log(stickyClass);
+    };
+    const classes=`main_menu ${sticky}`
   return (
     <>
  
- <header className="main_menu">
+ <header className={classes}>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-12">

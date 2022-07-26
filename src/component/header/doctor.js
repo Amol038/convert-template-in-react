@@ -2,7 +2,17 @@ import React,{useEffect,useState} from 'react'
 
 const Doctor = () => {
     const [sticky, setSticky] = useState("");
-
+    const [collapseClass,setCollapseClass] = useState("collapse navbar-collapse main-menu-item justify-content-center")
+    const [ariaExpanded,setAriaExpanded] = useState(false)
+    const handleToggle = () =>{
+        if(ariaExpanded == false){
+            setAriaExpanded(true)
+            setCollapseClass("collapse navbar-collapse main-menu-item justify-content-center show")
+        }else{
+            setAriaExpanded(false)
+            setCollapseClass("collapse navbar-collapse main-menu-item justify-content-center")
+        }
+    }
     // on render, set listener
     useEffect(() => {
       console.log("hii");
@@ -28,15 +38,15 @@ const Doctor = () => {
             <div className="row align-items-center">
                 <div className="col-lg-12">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <a className="navbar-brand" href="index.html"> 
+                        <a className="navbar-brand" href="/"> 
                         <img src="assets/img/logo.png" alt="logo"/> </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                            aria-expanded={ariaExpanded} aria-label="Toggle navigation" onClick={handleToggle}>
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
-                        <div className="collapse navbar-collapse main-menu-item justify-content-center"
+                        <div className={collapseClass}
                             id="navbarSupportedContent">
                             <ul className="navbar-nav align-items-center">
                                 <li className="nav-item active">

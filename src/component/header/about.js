@@ -121,10 +121,13 @@ const About = () => {
                 <div className="col-md-6 col-lg-5">
                     <div className="about_us_text">
                         <h2>About us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                            Quis ipsum suspendisse ultrices gravida. Risus cmodo viverra
-                            maecenas accumsan lacus vel</p>
+                        <p>Electrohomeopathy, also known as electrohomoeopathy, or Mattei cancer cure,
+                                 is a derivative of homeopathy, invented in the 19th century by Count Cesare Mattei.
+                                  The name is derived from a combination of electro (referring to an electric bio-energy content supposedly
+                                   extracted from plants and of therapeutic value, rather than electricity in
+                                    its conventional sense) and homoeopathy (referring to an alternative 
+                                    medicinal philosophy developed by Samuel Hahnemann in the 18th century). Electrohomeopathy has been defined as the combination of
+                                 electrical devices and homeopathy.</p>
                         <a className="btn_2 " href="/#">learn more</a>
                         <div className="banner_item">
                             <div className="single_item">

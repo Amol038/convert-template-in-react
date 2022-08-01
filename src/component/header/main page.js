@@ -44,7 +44,7 @@ function MainPage  ()  {
             <div className="row align-items-center">
                 <div className="col-lg-12">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <a className="navbar-brand" href="/#"> <img src="logo.png" alt="logo"/> </a>
+                        <a className="navbar-brand" href="/#"> <img src="assets/img/my logo.png" alt="logo"/> </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={ariaExpanded} aria-label="Toggle navigation" onClick={handleToggle}>
                                     <span className="navbar-toggler-icon"></span>
@@ -165,18 +165,21 @@ function MainPage  ()  {
                 <div className="col-lg-3 col-sm-12">
                     <div className="single_feature">
                         <div className="single_feature_part">
-                            <span className="single_feature_icon"><img src="assets/img/icon/feature_1.svg" alt=""/></span>
-                            <h4>Better Future</h4>
-                            <p>Darkness multiply rule Which from without life creature blessed
-                                give moveth moveth seas make day which divided our have.</p>
+                            <span className="single_feature_icon"><img src="assets/img/icon/skin disease 1.png" alt=""/></span>
+                            <h4>Skin disease</h4>
+                            <p> It is afflicted by all types of 
+                                pathological changes, including hereditary,
+                                 inflammatory, benign and malignant (neoplastic), 
+                                 endocrine, hormonal, traumatic, and degenerative processes.
+                                  Emotions affect the health of the skin as well.</p>
                         </div>
                     </div>
                     <div className="single_feature">
                         <div className="single_feature_part">
-                            <span className="single_feature_icon"><img src="assets/img/icon/feature_2.svg" alt=""/></span>
-                            <h4>Better Future</h4>
-                            <p>Darkness multiply rule Which from without life creature blessed
-                                give moveth moveth seas make day which divided our have.</p>
+                            <span className="single_feature_icon"><img src="assets/img/icon/cancer.png" alt=""/></span>
+                            <h4>cancer</h4>
+                            <p>Cancer is a disease caused when cells divide uncontrollably and spread into surrounding tissues.
+                               Cancer is caused by changes to DNA. Most cancer-causing DNA changes occur in sections of DNA called genes.</p>
                         </div>
                     </div>
                 </div>
@@ -188,18 +191,22 @@ function MainPage  ()  {
                 <div className="col-lg-3 col-sm-12">
                     <div className="single_feature">
                         <div className="single_feature_part">
-                            <span className="single_feature_icon"><img src="assets/img/icon/feature_1.svg" alt=""/></span>
-                            <h4>Better Future</h4>
-                            <p>Darkness multiply rule Which from without life creature blessed
-                                give moveth moveth seas make day which divided our have.</p>
+                            <span className="single_feature_icon"><img src="assets/img/icon/paralysis1.jpg" alt=""/></span>
+                            <h4>paralysis</h4>
+                            <p>Paralysis occurs when you’re unable to make voluntary muscle movements. 
+                                A nervous system problem causes paralysis.
+                               Uninjured nerves send signals to muscles.
+                                Those signals make muscles move.
+                               When you’re paralyzed, or have paralysis, 
+                               you can’t move certain parts of your body.</p>
                         </div>
                     </div>
                     <div className="single_feature">
                         <div className="single_feature_part">
-                            <span className="single_feature_icon"><img src="assets/img/icon/feature_2.svg" alt=""/></span>
-                            <h4>Better Future</h4>
-                            <p>Darkness multiply rule Which from without life creature blessed
-                                give moveth moveth seas make day which divided our have.</p>
+                            <span className="single_feature_icon"><img src="assets/img/icon/sugar-blood-level.png" alt=""/></span>
+                            <h4>Diabetes</h4>
+                            <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high,
+                                 Blood glucose is your main source of energy and comes from the food you eat.</p>
                         </div>
                     </div>
                 </div>
@@ -218,40 +225,47 @@ function MainPage  ()  {
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="single_our_depertment">
                                             <span className="our_depertment_icon">
-                                                <img src="assets/img/icon/feature_2.svg" alt=""/></span>
-                                            <h4>Better Future</h4>
-                                            <p>Darkness multiply rule Which from without life creature blessed
-                                                give moveth moveth seas make day which divided our have.</p>
+                                                <img src="assets/img/icon/skin disease 1.png" alt=""/></span>
+                                            <h4>skin disease</h4>
+                                            <p> It is afflicted by all types of 
+                                                pathological changes, including hereditary,
+                                                inflammatory, benign and malignant (neoplastic), 
+                                                endocrine, hormonal, traumatic, and degenerative processes.
+                                                Emotions affect the health of the skin as well.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="single_our_depertment">
                                             <span className="our_depertment_icon">
-                                                <img src="assets/img/icon/feature_2.svg"
+                                                <img src="assets/img/icon/cancer.png"
                                                     alt=""/></span>
-                                            <h4>Better Future</h4>
-                                            <p>Darkness multiply rule Which from without life creature blessed
-                                                give moveth moveth seas make day which divided our have.</p>
+                                            <h4>cancer</h4>
+                                            <p>Cancer is a disease caused when cells divide uncontrollably and spread into surrounding tissues.
+                                             Cancer is caused by changes to DNA. Most cancer-causing DNA changes occur in sections of DNA called genes.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="single_our_depertment">
                                             <span className="our_depertment_icon">
-                                                <img src="assets/img/icon/feature_2.svg"
+                                                <img src="assets/img/icon/paralysis1.jpg"
                                                     alt=""/></span>
-                                            <h4>Better Future</h4>
-                                            <p>Darkness multiply rule Which from without life creature blessed
-                                                give moveth moveth seas make day which divided our have.</p>
+                                            <h4>paralysis</h4>
+                                            <p>Paralysis occurs when you’re unable to make voluntary muscle movements. 
+                                               A nervous system problem causes paralysis.
+                                               Uninjured nerves send signals to muscles.
+                                               Those signals make muscles move.
+                                               When you’re paralyzed, or have paralysis, 
+                                               you can’t move certain parts of your body.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="single_our_depertment">
                                             <span className="our_depertment_icon">
-                                                <img src="assets/img/icon/feature_2.svg"
+                                                <img src="assets/img/icon/sugar-blood-level.png"
                                                     alt=""/></span>
-                                            <h4>Better Future</h4>
-                                            <p>Darkness multiply rule Which from without life creature blessed
-                                                give moveth moveth seas make day which divided our have.</p>
+                                            <h4>Diabetes</h4>
+                                            <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high,
+                                                Blood glucose is your main source of energy and comes from the food you eat.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -423,7 +437,7 @@ function MainPage  ()  {
                 <div className="row justify-content-between">
                     <div className="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
                         <a href="/#" className="footer_logo">
-                             <img src="assets/img/logo.png" alt="#"/> </a>
+                             <img src="assets/img/my logo.png" alt="#"/> </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         <div className="social_logo">
                             <a href="/#"><i className="ti-facebook"></i></a>

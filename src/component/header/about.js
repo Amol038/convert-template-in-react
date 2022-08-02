@@ -40,7 +40,7 @@ const About = () => {
                 <div className="col-lg-12">
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <a className="navbar-brand" href="/"> 
-                        <img src="assets/img/my logo.png" alt="logo"/> </a>
+                        <img src="assets/img/my logo2.png" alt="logo"/> </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded={ariaExpanded} aria-label="Toggle navigation" onClick={handleToggle}>
@@ -224,7 +224,7 @@ const About = () => {
                 <div className="row justify-content-between">
                     <div className="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
                         <a href="/#" className="footer_logo">
-                           <img src="assets/img/my logo.png" alt="#"/> </a>
+                           <img src="assets/img/my logo2.png" alt="#"/> </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         <div className="social_logo">
                             <a href="/#"><i className="ti-facebook"></i></a>

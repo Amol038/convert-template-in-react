@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Data from './data'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 //import "./header.css"
 
@@ -7,6 +7,7 @@ function MainPage  ()  {
     const [sticky, setSticky] = useState("");
     const [collapseClass,setCollapseClass] = useState("collapse navbar-collapse main-menu-item justify-content-center")
     const [ariaExpanded,setAriaExpanded] = useState(false)
+    
     //  const [showMenu, setShowMenu] = useState(false)
 
     // on render, set listener
@@ -91,16 +92,9 @@ function MainPage  ()  {
                 <div className="col-lg-5 col-xl-5">
                     <div className="banner_text">
                         <div className="banner_text_iner">
-                            <h5>We are here for your care</h5>
-                            <h1>Best Care &
-                                Better Doctor</h1>
-                            <p>Electrohomeopathy, also known as electrohomoeopathy, or Mattei cancer cure,
-                                 is a derivative of homeopathy, invented in the 19th century by Count Cesare Mattei.
-                                  The name is derived from a combination of electro (referring to an electric bio-energy content supposedly
-                                   extracted from plants and of therapeutic value, rather than electricity in
-                                    its conventional sense) and homoeopathy (referring to an alternative 
-                                    medicinal philosophy developed by Samuel Hahnemann in the 18th century). Electrohomeopathy has been defined as the combination of
-                                 electrical devices and homeopathy. </p>
+                            <h5>{Data.mainpagelable}</h5>
+                            <h1>{Data.mainpageHeading}</h1>
+                            <p>{Data.aboutHeading} </p>
                             <a href="/#" className="btn_2">Make an appointment</a>
 
                         </div>
@@ -125,13 +119,7 @@ function MainPage  ()  {
                 <div className="col-md-6 col-lg-5">
                     <div className="about_us_text">
                         <h2>About us</h2>
-                        <p>Electrohomeopathy, also known as electrohomoeopathy, or Mattei cancer cure,
-                                 is a derivative of homeopathy, invented in the 19th century by Count Cesare Mattei.
-                                  The name is derived from a combination of electro (referring to an electric bio-energy content supposedly
-                                   extracted from plants and of therapeutic value, rather than electricity in
-                                    its conventional sense) and homoeopathy (referring to an alternative 
-                                    medicinal philosophy developed by Samuel Hahnemann in the 18th century). Electrohomeopathy has been defined as the combination of
-                                 electrical devices and homeopathy.</p>
+                        <p>{Data.aboutHeading}</p>
                         <a className="btn_2 " href="/#">learn more</a>
                         <div className="banner_item">
                             <div className="single_item">
@@ -167,19 +155,14 @@ function MainPage  ()  {
                         <div className="single_feature_part">
                             <span className="single_feature_icon"><img src="assets/img/icon/skin disease 1.png" alt=""/></span>
                             <h4>Skin disease</h4>
-                            <p> It is afflicted by all types of 
-                                pathological changes, including hereditary,
-                                 inflammatory, benign and malignant (neoplastic), 
-                                 endocrine, hormonal, traumatic, and degenerative processes.
-                                  Emotions affect the health of the skin as well.</p>
+                            <p> {Data.servicetype1}</p>
                         </div>
                     </div>
                     <div className="single_feature">
                         <div className="single_feature_part">
                             <span className="single_feature_icon"><img src="assets/img/icon/cancer.png" alt=""/></span>
                             <h4>cancer</h4>
-                            <p>Cancer is a disease caused when cells divide uncontrollably and spread into surrounding tissues.
-                               Cancer is caused by changes to DNA. Most cancer-causing DNA changes occur in sections of DNA called genes.</p>
+                            <p>{Data.servicetype2}</p>
                         </div>
                     </div>
                 </div>
@@ -193,20 +176,14 @@ function MainPage  ()  {
                         <div className="single_feature_part">
                             <span className="single_feature_icon"><img src="assets/img/icon/paralysis1.jpg" alt=""/></span>
                             <h4>paralysis</h4>
-                            <p>Paralysis occurs when you’re unable to make voluntary muscle movements. 
-                                A nervous system problem causes paralysis.
-                               Uninjured nerves send signals to muscles.
-                                Those signals make muscles move.
-                               When you’re paralyzed, or have paralysis, 
-                               you can’t move certain parts of your body.</p>
+                            <p>{Data.servicetype3}</p>
                         </div>
                     </div>
                     <div className="single_feature">
                         <div className="single_feature_part">
                             <span className="single_feature_icon"><img src="assets/img/icon/sugar-blood-level.png" alt=""/></span>
                             <h4>Diabetes</h4>
-                            <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high,
-                                 Blood glucose is your main source of energy and comes from the food you eat.</p>
+                            <p>{Data.servicetype4}</p>
                         </div>
                     </div>
                 </div>
@@ -227,11 +204,7 @@ function MainPage  ()  {
                                             <span className="our_depertment_icon">
                                                 <img src="assets/img/icon/skin disease 1.png" alt=""/></span>
                                             <h4>skin disease</h4>
-                                            <p> It is afflicted by all types of 
-                                                pathological changes, including hereditary,
-                                                inflammatory, benign and malignant (neoplastic), 
-                                                endocrine, hormonal, traumatic, and degenerative processes.
-                                                Emotions affect the health of the skin as well.</p>
+                                            <p>{Data.servicetype1}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
@@ -240,8 +213,7 @@ function MainPage  ()  {
                                                 <img src="assets/img/icon/cancer.png"
                                                     alt=""/></span>
                                             <h4>cancer</h4>
-                                            <p>Cancer is a disease caused when cells divide uncontrollably and spread into surrounding tissues.
-                                             Cancer is caused by changes to DNA. Most cancer-causing DNA changes occur in sections of DNA called genes.</p>
+                                            <p>{Data.servicetype2}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
@@ -250,12 +222,7 @@ function MainPage  ()  {
                                                 <img src="assets/img/icon/paralysis1.jpg"
                                                     alt=""/></span>
                                             <h4>paralysis</h4>
-                                            <p>Paralysis occurs when you’re unable to make voluntary muscle movements. 
-                                               A nervous system problem causes paralysis.
-                                               Uninjured nerves send signals to muscles.
-                                               Those signals make muscles move.
-                                               When you’re paralyzed, or have paralysis, 
-                                               you can’t move certain parts of your body.</p>
+                                            <p>{Data.servicetype3}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
@@ -264,8 +231,7 @@ function MainPage  ()  {
                                                 <img src="assets/img/icon/sugar-blood-level.png"
                                                     alt=""/></span>
                                             <h4>Diabetes</h4>
-                                            <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high,
-                                                Blood glucose is your main source of energy and comes from the food you eat.</p>
+                                            <p>{Data.servicetype4}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -303,8 +269,8 @@ function MainPage  ()  {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Heart specialist</p>
+                                <h3>{Data.doctorname1}</h3>
+                                <p>{Data.Specification1}</p>
                             </div>
                         </div>
                     </div>
@@ -324,8 +290,8 @@ function MainPage  ()  {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Medicine specialist</p>
+                                <h3>{Data.doctorname2}</h3>
+                                <p>{Data.Specification2}</p>
                             </div>
                         </div>
                     </div>
@@ -345,8 +311,8 @@ function MainPage  ()  {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Fred Macyard</h3>
-                                <p>CHeart specialist</p>
+                                <h3>{Data.doctorname3}</h3>
+                                <p>{Data.Specification3}</p>
                             </div>
                         </div>
                     </div>
@@ -366,8 +332,8 @@ function MainPage  ()  {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Justin Stuard</h3>
-                                <p>Heart specialist</p>
+                                <h3>{Data.doctorname4}</h3>
+                                <p>{Data.Specification4}</p>
                             </div>
                         </div>
                     </div>
@@ -438,7 +404,7 @@ function MainPage  ()  {
                     <div className="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
                         <a href="/#" className="footer_logo">
                              <img src="assets/img/my logo2.png" alt="#"/> </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p>{Data.footersummary} </p>
                         <div className="social_logo">
                             <a href="/#"><i className="ti-facebook"></i></a>
                             <a href="/#"> <i className="ti-twitter"></i> </a>

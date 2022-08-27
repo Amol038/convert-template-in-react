@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-
+import Data from './data'
 const Doctor = () => {
     const [sticky, setSticky] = useState("");
     const [collapseClass,setCollapseClass] = useState("collapse navbar-collapse main-menu-item justify-content-center")
@@ -122,8 +122,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Heart specialist</p>
+                                <h3> {Data.doctorname1}</h3>
+                                <p>{Data.Specification1}</p>
                             </div>
                         </div>
                     </div>
@@ -143,8 +143,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Medicine specialist</p>
+                                <h3>{Data.doctorname2}</h3>
+                                <p>{Data.Specification2}</p>
                             </div>
                         </div>
                     </div>
@@ -164,8 +164,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Fred Macyard</h3>
-                                <p>CHeart specialist</p>
+                                <h3>{Data.doctorname3}</h3>
+                                <p>{Data.Specification3}</p>
                             </div>
                         </div>
                     </div>
@@ -185,8 +185,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Justin Stuard</h3>
-                                <p>Heart specialist</p>
+                                <h3>{Data.doctorname4}</h3>
+                                <p>{Data.Specification4}</p>
                             </div>
                         </div>
                     </div>
@@ -206,8 +206,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Heart specialist</p>
+                                <h3>{Data.doctorname5}</h3>
+                                <p>{Data.Specification5}</p>
                             </div>
                         </div>
                     </div>
@@ -227,8 +227,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Adam Billiard</h3>
-                                <p>Medicine specialist</p>
+                                <h3>{Data.doctorname6}</h3>
+                                <p>{Data.Specification6}</p>
                             </div>
                         </div>
                     </div>
@@ -248,8 +248,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Fred Macyard</h3>
-                                <p>CHeart specialist</p>
+                                <h3>{Data.doctorname7}</h3>
+                                <p>{Data.Specification7}</p>
                             </div>
                         </div>
                     </div>
@@ -269,8 +269,8 @@ const Doctor = () => {
                         </div>
                         <div className="single_text">
                             <div className="single_blog_text">
-                                <h3>DR Justin Stuard</h3>
-                                <p>Heart specialist</p>
+                                <h3>{Data.doctorname8}</h3>
+                                <p>{Data.Specification8}</p>
                             </div>
                         </div>
                     </div>
@@ -346,7 +346,7 @@ const Doctor = () => {
                 <div className="row justify-content-between">
                     <div className="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
                         <a href="/#" className="footer_logo"> <img src="assets/img/my logo2.png" alt="#"/> </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p>{Data.footersummary} </p>
                         <div className="social_logo">
                             <a href="/#"><i className="ti-facebook"></i></a>
                             <a href="/#"> <i className="ti-twitter"></i> </a>

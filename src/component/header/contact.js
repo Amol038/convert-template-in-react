@@ -1,4 +1,5 @@
 import React,{useEffect,useState} from 'react'
+import Data from './data';
 
 const Contact = () => {
     const [sticky, setSticky] = useState("");
@@ -98,7 +99,7 @@ const Contact = () => {
                 <div className="row justify-content-between">
                     <div className="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
                         <a href="/#" className="footer_logo"> <img src="assets/img/my logo2.png" alt="#"/> </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p>{Data.footersummary}</p>
                         <div className="social_logo">
                             <a href="/#"><i className="ti-facebook"></i></a>
                             <a href="/#"> <i className="ti-twitter"></i> </a>
